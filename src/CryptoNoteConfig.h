@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "adina";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001ffffffffff1f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101011b0c2288a61d8624a64e7640cf4fb2ca949b5efa3db1f523f757dc6741299f";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "020a01ff0001c0843d029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210135a878b0e947ce330c249ae5261fc5a40d0f91008f7bfeeb9bd898aca7823d2b";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
