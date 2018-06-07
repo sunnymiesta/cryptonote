@@ -10,8 +10,8 @@
 namespace CryptoNote {
 namespace parameters {
 
-const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
-const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
+const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 600000000;
+const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 600000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
 //TODO Currency-specific address prefix
 const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0x60ca;
@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "adina";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "020a01ff0001c0843d029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210135a878b0e947ce330c249ae5261fc5a40d0f91008f7bfeeb9bd898aca7823d2b";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001c0843d029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101b31f8d1ab9e7456d87113ac066fbbd1b4b48a018c8aeef3d994ea0351d155559";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -87,7 +87,7 @@ const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 //TODO This port will be used by the daemon to establish connections with p2p network
 const int      P2P_DEFAULT_PORT                              = 15715;
 //TODO This port will be used by the daemon to interact with simlewallet
-const int      RPC_DEFAULT_PORT                              = 17583;
+const int      RPC_DEFAULT_PORT                              = 15716;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -102,7 +102,7 @@ const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT                = 5000;          //
 const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT           = 2000;          // 2 seconds
 const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT                    = 60 * 2 * 1000; // 2 minutes
 const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          // 5 seconds
-const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
+const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "F29507CA78955F37A3B783EE2C5123B8B6A34A0C5CAAE050922C62541614G090";
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
